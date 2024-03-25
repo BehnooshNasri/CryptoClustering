@@ -18,7 +18,7 @@ Use the elbow method to find the best value for k using the following steps:
 - Create a dictionary with the data to plot the elbow curve.
 - Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 
-1. Answer the following question in your notebook: What is the best value for k?
+Answer the following question in your notebook: What is the best value for k? 
 
 ## Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 Use the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
@@ -37,7 +37,7 @@ Using the original scaled DataFrame, perform a PCA and reduce the features to th
 
 Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook:
 
-2. What is the total explained variance of the three principal components?
+What is the total explained variance of the three principal components?
 
 Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
@@ -55,8 +55,8 @@ Use the elbow method on the PCA data to find the best value for k using the foll
 - Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 
 Answer the following question in your notebook:
-3. What is the best value for k when using the PCA data?
-4. Does it differ from the best k value found using the original data?
+What is the best value for k when using the PCA data?
+Does it differ from the best k value found using the original data?
 
 ## Cluster Cryptocurrencies with K-means Using the PCA Data
 Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
@@ -71,4 +71,4 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
 Answer the following question:
-5. What is the impact of using fewer features to cluster the data using K-Means?
+What is the impact of using fewer features to cluster the data using K-Means?
